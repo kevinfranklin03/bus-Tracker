@@ -2,7 +2,6 @@ import React from 'react';
 import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
 import {useDispatch} from 'react-redux';
 import {setOrigin} from '../../slices/navSlice';
-const GOOGLE_MAPS_KEY = 'AIzaSyCK8GMRfojArWGVss8g8g5y-t9RYrM_Xsk';
 
 const ChooseLocation = () => {
   const dispatch = useDispatch();
